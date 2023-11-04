@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+   border: 3px solid black;
+    text-align: center;
+    background-color: rgb(219, 219, 67);
+    color: #fff;
+    padding: 17px;
+   
+}
+.navbar{
+    background-color: rgba(210, 56, 177, 0.993);
+    border-radius: 60px;
+    display: inline;
+    
+}
+.navbar ul{
+    overflow: auto;
+   
+    margin-top: -22px;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 10px 15px;
+    padding-top: 0px;
+
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgb(7, 5, 5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+
+}
+.navbar li a:hover{
+    color: red;
+}
+.search{
+    float: right;
+    color: azure;
+    padding: 9px 85px;
+    margin: 2px;
+   
+}
+.navbar input{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 2px 30px;
+}
+
+
+header h1 {
+    text-shadow: 2px 3px 4px rgb(36, 104, 199);
+    color: black;
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 40px;
+}
+
+#about {
+    background:url(images/circle-5090539_1280.jpg);
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    padding: 20px;
+    border: 3px solid blanchedalmond;
+   
+}
+
+#about img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+#skills{
+    background-color:#cb6b6b;
+    border-radius: 50px;
+}
+#projects{
+    
+    border-radius: 30px;
+   
+   
+}
+#projects p{
+    color: rgb(5, 8, 10);
+}
+.project img{
+    height: 200px;
+    width: 200px;
+}
+#contact img{
+    width: 400px;
+    height: 100px;
+}
+
+
+#skills, #projects, #resume, #contact {
+    padding: 20px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
